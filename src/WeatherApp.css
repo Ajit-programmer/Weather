@@ -1,0 +1,49 @@
+.WeatherApp {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.6s ease;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* 🌤️ Backgrounds based on weather */
+.clear-bg {
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+}
+
+.cloud-bg {
+  background: linear-gradient(135deg, #d7d2cc, #304352);
+}
+
+.rain-bg {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+.snow-bg {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.haze-bg {
+  background: linear-gradient(135deg, #b2fefa, #0ed2f7);
+}
+
+.thunder-bg {
+  background: linear-gradient(135deg, #283048, #859398);
+}
+
+.default-bg {
+  background: linear-gradient(135deg, #f0f0f0, #c9d6ff);
+}

@@ -1,0 +1,32 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;      /* center horizontally */
+  padding: 0 10px;        /* padding for small screens */
+  width: 100%;            /* full width responsive */
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Temperature overlay style for classy look */
+.temp-overlay {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+}

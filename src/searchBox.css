@@ -1,0 +1,14 @@
+.SearchBox {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.SearchBox form {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
